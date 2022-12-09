@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/reset_style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="homepage">
+      <header class="homepage__header">
+        <ul class="header__list">
+          <li class="header__item">
+            <img src="./img/icon/logo.svg" alt="#" class="logo" />
+          </li>
+          <li class="header__item">
+            <button class="header__btn">
+              <span class="btn-text">меню</span>
+            </button>
+          </li>
+        </ul>
+      </header>
+
+      <div class="homepage__preview">
+        <ul class="preview__list">
+          <li class="preview__item">
+            <img src="./img/picture/planet.svg" alt="#" />
+          </li>
+          <li class="preview__item">
+            <a href="#" class="preview__link">Смотреть шоурил</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="homepage__advantages">
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h1 class="advantages__title">
+              Студия маркетинга для проектов различной сложности.
+            </h1>
+          </li>
+          <li class="advantages__item">
+            <p class="advantages__text">
+              Доверие и <span class="orange">&nbsp;ответственность</span>
+            </p>
+          </li>
+        </ul>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="./img/picture/IllustrationK11.svg"
+                alt="#"
+                class="swiper__img"
+              />
+              <p class="swiper__text">
+                Основа наших отношений с клиентами — взаимное доверие. Мы всегда
+                берем на себя ответственность за результат.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="./img/picture/IllustrationK11.svg"
+                alt="#"
+                class="swiper__img"
+              />
+              <p class="swiper__text">
+                Основа наших отношений с клиентами — взаимное доверие. Мы всегда
+                берем на себя ответственность за результат.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="./img/picture/IllustrationK11.svg"
+                alt="#"
+                class="swiper__img"
+              />
+              <p class="swiper__text">
+                Основа наших отношений с клиентами — взаимное доверие. Мы всегда
+                берем на себя ответственность за результат.
+              </p>
+            </div>
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="homepage__todo">
+        <h2 class="todo__title">Что мы умеем<span class="orange">?</span></h2>
+
+        <!-- Slider main container -->
+        <div id="swiper-todo" class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <span class="swiper-todo__title">Разработка сайтов</span>
+              <p class="swiper-todo__text">
+                Современные диджитал инструменты для работы и управления
+                продуктом
+              </p>
+              <img src="./img/picture/display.png" alt="#" class="todo-img" />
+            </div>
+
+            <div class="swiper-slide">
+              <span class="swiper-todo__title">Разработка сайтов</span>
+              <p class="swiper-todo__text">
+                Современные диджитал инструменты для работы и управления
+                продуктом
+              </p>
+              <img
+                src="./img/picture/Rectangle 44design.png"
+                alt="#"
+                class="todo-img"
+              />
+            </div>
+
+            <div class="swiper-slide">
+              <span class="swiper-todo__title">Разработка сайтов</span>
+              <p class="swiper-todo__text">
+                Современные диджитал инструменты для работы и управления
+                продуктом
+              </p>
+              <img
+                src="./img/picture/Rectangle 44digital.png"
+                alt="#"
+                class="todo-img"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="homepage__works">
+        <h2 class="works__title">Наши работы.</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper swiper-works">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swiper-slide__shampoo">
+              <ul class="slide__shampoo">
+                <li class="slide__item">
+                  <h3 class="swiper-works__title">
+                    Линейка шампуней для волос
+                  </h3>
+                </li>
+                <li class="slide__item">
+                  <h4 class="swiper-works__text">Нейминг</h4>
+                  <h4 class="swiper-works__text">Логотип</h4>
+                  <h4 class="swiper-works__text">Упаковка</h4>
+                </li>
+                <li class="slide__item">
+                  <img
+                    src="./img/picture/cosmetiq.png"
+                    alt="#"
+                    class="swiper-works__img"
+                  />
+                </li>
+              </ul>
+            </div>
+
+            <div class="swiper-slide swiper-slide__shampoo">
+              <ul class="slide__shampoo">
+                <li class="slide__item">
+                  <h3 class="swiper-works__title">
+                    Линейка шампуней для волос
+                  </h3>
+                </li>
+                <li class="slide__item">
+                  <h4 class="swiper-works__text">Нейминг</h4>
+                  <h4 class="swiper-works__text">Логотип</h4>
+                  <h4 class="swiper-works__text">Упаковка</h4>
+                </li>
+                <li class="slide__item">
+                  <img
+                    src="./img/picture/cosmetiq.png"
+                    alt="#"
+                    class="swiper-works__img"
+                  />
+                </li>
+              </ul>
+            </div>
+
+            <div class="swiper-slide swiper-slide__shampoo">
+              <ul class="slide__shampoo">
+                <li class="slide__item">
+                  <h3 class="swiper-works__title">
+                    Линейка шампуней для волос
+                  </h3>
+                </li>
+                <li class="slide__item">
+                  <h4 class="swiper-works__text">Нейминг</h4>
+                  <h4 class="swiper-works__text">Логотип</h4>
+                  <h4 class="swiper-works__text">Упаковка</h4>
+                </li>
+                <li class="slide__item">
+                  <img
+                    src="./img/picture/cosmetiq.png"
+                    alt="#"
+                    class="swiper-works__img"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

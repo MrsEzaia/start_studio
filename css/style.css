@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap");
+
+.homepage {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  margin-bottom: 50px;
+}
+
+.header__list {
+  display: flex;
+  padding: 32px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 108.4px;
+  height: 14.97px;
+}
+
+.header__btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn-text {
+  display: flex;
+  align-items: center;
+
+  column-gap: 8px;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Main black */
+
+  color: #141414;
+}
+
+.btn-text::before {
+  content: "";
+  width: 18px;
+  height: 1px;
+  /* Main orange */
+
+  background: #ff5d2a;
+}
+
+/* PREVIEW */
+.homepage__preview {
+  display: flex;
+}
+
+.preview__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 105px;
+}
+
+.preview__link {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Main black */
+
+  color: #141414;
+}
+
+.preview__link::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  transform: translateX(-27px) translateY(-16px);
+  /*Mainorange*/
+  background: #ff5d2a;
+  filter: blur(12px);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -1;
+  -webkit-transform: translateX(-27px) translateY(-16px);
+  -moz-transform: translateX(-27px) translateY(-16px);
+  -ms-transform: translateX(-27px) translateY(-16px);
+  -o-transform: translateX(-27px) translateY(-16px);
+  -webkit-filter: blur(12px);
+}
+
+/* ADVANTAGE */
+.advantages__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages__title {
+  display: flex;
+  width: 85%;
+
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Main black */
+
+  color: #141414;
+}
+
+.advantages__text {
+  display: flex;
+  margin-top: 40px;
+
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Main black */
+
+  color: #141414;
+}
+
+.orange {
+  color: #ff5d2a;
+}
+
+.swiper {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.swiper__img {
+  width: 100%;
+}
+
+.swiper__text {
+  padding-right: 24px;
+  width: 70%;
+  display: flex;
+  align-self: flex-end;
+
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* Main black */
+
+  color: #141414;
+}
+
+/* PAGINATION */
+.swiper-pagination {
+  display: flex;
+  position: relative !important;
+  column-gap: 32px !important;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.swiper-pagination-bullet {
+  width: 37px !important;
+  height: 3px !important;
+  border-radius: 0 !important;
+  /*Mainblack*/
+  background: #141414 !important;
+  opacity: 0.7 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff5d2a !important;
+}
+
+/* TODO */
+.homepage__todo {
+  padding: 0 24px;
+  overflow: hidden;
+}
+.swiper-todo__title {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  /* Main orange */
+
+  color: #ff5d2a;
+}
+
+.swiper-todo__text {
+  width: 60%;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 100%;
+  /* or 12px */
+
+  /* Main black */
+
+  color: #141414;
+}
+
+.todo-img {
+  height: 174px;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "";
+  display: flex;
+  width: 60px;
+  height: 8px;
+  background-image: url("/img/icon/arrow_left.svg") !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "";
+  display: flex;
+  width: 70px;
+  height: 8px;
+  background-image: url("/img/icon/arrow_right.svg") !important;
+  background-size: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: flex;
+  width: 58px;
+  height: 8px;
+  transform: translateY(140px);
+  -webkit-transform: translateY(140px);
+  -moz-transform: translateY(140px);
+  -ms-transform: translateY(140px);
+  -o-transform: translateY(140px);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: inherit;
+}
+
+/* WORKS */
+.swiper-works {
+  margin-top: 37px;
+}
+
+.works__title {
+  display: flex;
+  padding: 24px;
+
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Main black */
+
+  color: #141414;
+}
+
+.slide__shampoo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #feb8d4;
+  height: 168px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.slide__item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  padding-left: 24px;
+}
+
+.swiper-works__img {
+  display: flex;
+  position: absolute;
+  width: 235px;
+  height: 199px;
+  right: 0px;
+  bottom: 0;
+  z-index: 100;
+}
+
+.swiper-works__title {
+  padding-top: 32px;
+  display: flex;
+  width: 100%;
+  height: 14px !important;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.swiper-works__text {
+  display: flex;
+
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 9px;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
