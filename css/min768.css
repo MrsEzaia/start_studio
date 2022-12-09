@@ -108,4 +108,44 @@
     -o-transform: translateX(-27px) translateY(-16px);
     -webkit-filter: blur(12px);
   }
+
+  .swiper {
+    width: 100% !important;
+  }
+
+  .swiper-wrapper {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    column-gap: 20px;
+  }
+
+  .swiper-slide {
+    display: flex !important;
+    width: 220px !important;
+  }
+
+  .swiper__container {
+    justify-content: center;
+  }
+
+  .swiper__img {
+    width: auto;
+    height: 150px;
+  }
+
+  .swiper__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    order: 1;
+    font-size: 20px;
+  }
+
+  .swiper__text {
+    order: 2;
+    font-size: 14px;
+  }
 }
