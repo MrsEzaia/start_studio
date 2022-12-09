@@ -361,3 +361,132 @@
 
   opacity: 0.7;
 }
+
+/* FOOTER */
+.footer {
+  background: #141414;
+  padding: 32px 24px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 55px;
+  align-items: center;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__item:first-child {
+  flex-direction: column;
+}
+
+.footer__title {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Main orange */
+
+  color: #ffffff;
+}
+
+.footer__form {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 55px;
+}
+
+.form__input {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+.form__input:focus {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+.form__submit {
+  display: flex;
+  flex-direction: row;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* White */
+
+  color: #ffffff;
+
+  align-self: flex-start;
+}
+
+.form__submit::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  /*Mainorange*/
+  background: #ff5d2a;
+  filter: blur(8px);
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.form__text {
+  padding-top: 14px;
+  width: 60%;
+  align-self: center;
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 9px;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.footer__contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.footer__link-tel,
+.footer__link-email {
+  font-family: "Jura";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* Main orange */
+
+  color: #ffffff;
+}
